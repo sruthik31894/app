@@ -1,0 +1,16 @@
+body {
+  
+     background-image: url(assets/cvr1.jpg) ;
+     background-size: cover; 
+}
+
+a {
+  background: white;
+    margin-top: 35px;
+    margin-left: 75px;
+}
+div {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

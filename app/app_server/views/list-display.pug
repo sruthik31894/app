@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1= title
+    p "Here is the List of Movies"
+    ul
+        each movie in movies
+            li
+                a(href=`/movies/${movie._id}`)= movie.name
+    p 
+        a(href='/new')="Add New Movie"

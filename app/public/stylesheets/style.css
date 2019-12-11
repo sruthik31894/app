@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+    background-color: beige;
+  font: 17px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color:antiquewhite;
+    font-size: 20px;
+}
+nav{
+    background-color: burlywood;
+}
+nav a:hover{
+    color: black;
+}
+
+h1{
+    padding: 10px;
+}

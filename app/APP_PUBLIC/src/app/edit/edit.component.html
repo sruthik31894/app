@@ -1,0 +1,16 @@
+<p>
+  edit works!
+</p>
+<h3>Form to Edit a list</h3>
+<div>
+    <form method="POST">
+        <label for="name">Name</label>
+        <input *ngIf="newMovie.name" type="text" [(ngModel)] = "newMovie.name" id="name" name="name" >
+        <br>
+         <label for="type">Type</label>
+         <input [(ngModel)] = "newMovie.type" id="type" name="type">
+        <br>
+        <button type="submit" (click)="updateMovies(newMovie)">Update</button>
+        <button type="submit" (click)="deleteMovies(newMovie)">Delete</button>
+    </form>
+</div>
